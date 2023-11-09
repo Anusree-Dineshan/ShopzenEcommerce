@@ -25,6 +25,8 @@ urlpatterns = [
     path('search/',include('search_app.urls')),
     path('', include('ecommerceapp.urls')),
     path('/cart/',include('cart.urls')),
+ 
+
 
 ]
 if settings.DEBUG:
